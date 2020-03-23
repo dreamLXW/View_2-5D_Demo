@@ -4,6 +4,7 @@ cc.Class({
     properties: {
         node3D:cc.Node,
         speed:200,
+        gameCamera:cc.Node,
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -53,5 +54,6 @@ cc.Class({
             this.node.position = toPos;
         }
         this.node3D.position = this.node.position;
+        this.gameCamera.position = cc.v2(this.gameCamera.position.x,this.node.position.y);
     },
 });

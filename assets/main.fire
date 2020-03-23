@@ -57,7 +57,8 @@
     "_is3DNode": true,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "1azXwh/3JPD6Z4UGEmK4I7"
+    "autoReleaseAssets": false,
+    "_id": "9b2ac08c-c757-4624-901d-fb07dbe1b5b3"
   },
   {
     "__type__": "cc.Node",
@@ -185,7 +186,7 @@
       "array": [
         0,
         0,
-        365.46272039703314,
+        220.83647796503186,
         0,
         0,
         0,
@@ -283,7 +284,7 @@
       "array": [
         0,
         0,
-        365.46272039703314,
+        220.83647796503186,
         0,
         0,
         0,
@@ -4840,6 +4841,9 @@
       "__id__": 100
     },
     "speed": 50,
+    "gameCamera": {
+      "__id__": 5
+    },
     "_id": "6c5kuwk2BK948PVO6odmd8"
   },
   {
